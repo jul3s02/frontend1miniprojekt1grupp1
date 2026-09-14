@@ -1,0 +1,10 @@
+*,
+*::before,
+*::after{
+
+}
+body{
+    font-family: system-ui,sans-serif;
+    line-height: 1.6;
+    
+}
