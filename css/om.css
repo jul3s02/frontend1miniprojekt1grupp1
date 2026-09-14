@@ -1,0 +1,18 @@
+.border {
+    border: 3px solid;
+    border-color: #eeb631;
+    border-radius: 10px;
+    padding: 10px;
+    width: fit-content;
+}
+
+h2 {
+    text-decoration: #eeb631 underline;
+    text-align: center;
+    padding: 10px;
+    line-height: 1.6;
+}
+
+p {
+    line-height: 1.6;
+}
