@@ -1,0 +1,83 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f8f4ee;
+    color: #333;
+}
+main{
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 700px;
+}
+h1
+{
+    
+    margin-bottom: 30px;
+    text-align: center;
+}
+form{
+display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+label{
+    font-weight: bold;
+}
+input, select, textarea{
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 16px;
+}
+textarea{
+    min-height: 120px;
+    resize: vertical;
+}
+button input[type="submit"]{
+    padding: 12px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+main nav{
+    background-color: #c89562;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+}
+nav a:hover{
+    background-color: #a87545;
+    border-radius: 5px;
+}
+nav a focus{
+    outline: 3px solid #fff;
+    outline-offset: 2px;
+}
+@media (max-width: 600px){
+    main{
+        margin: 20px;
+        padding: 10px;
+    }
+    main nav{
+        flex-direction: column;
+        gap: 10px;
+    }
+}main nav{
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+input, select, textarea,button{ input[type="submit"]{
+    width: 100%;
+    box-sizing: border-box;
+}
