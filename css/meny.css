@@ -1,0 +1,25 @@
+.menuMain {
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+    border:  dashed black 2px;
+}
+
+.menuMain h3{
+    margin: 0;
+}
+
+.menuMain ul {
+    padding-left: 1rem;
+    margin: 0;
+}
+
+.menuMain li {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menuMain li p {
+    margin:0;
+}
