@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body main{
+    color: blue;
+    
+    font-family: system-ui,sans-serif;
+    line-height: 1.6;
+    background-color:antiquewhite; 
+}
+article{
+    color: blue;
+    background-color: antiquewhite;
+}
+img {
+    display: flex;
+    justify-content: center;
+}  
