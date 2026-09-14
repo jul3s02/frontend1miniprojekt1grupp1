@@ -1,14 +1,22 @@
 .border {
-    border: 3px dotted;
-    border-color: #eeb631;
+    border: 3px dotted #eeb631;
     border-radius: 10px;
     padding: 10px;
     width: fit-content;
-    margin-left: 50px;
-    margin-top: 25px;
+    margin: 30px;
 }
 
-h2, h3 {
+.border ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.border h3 {
+    margin: 0;
+}
+
+main h2, 
+main h3 {
     text-decoration: #eeb631 underline;
     text-align: center;
     padding: 10px;
