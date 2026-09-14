@@ -107,3 +107,13 @@ a:hover{
 .headerfokus {
   color:#dda25f ;
 }
+
+
+@media (min-width:768px){
+
+    header nav {
+        gap: 1rem;
+    }
+
+
+}
