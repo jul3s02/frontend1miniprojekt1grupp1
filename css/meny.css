@@ -25,7 +25,11 @@ main{
 .menuMain li {
     display: flex;
     justify-content: space-between;
+    padding: 1rem;
+}
 
+li:nth-child(odd){
+    background-color: rgba(0, 0, 0, 0.05);
 }
 
 .menuMain li p {
@@ -33,7 +37,11 @@ main{
 }
 
 .menuSection{
-    margin: 1rem;
+    margin: 2rem;
+    box-shadow: 5px 12px 24px -3px rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: rgba(254, 250, 225, 0.5);
 }
 
 
