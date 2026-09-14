@@ -4,6 +4,8 @@
     border-radius: 10px;
     padding: 10px;
     width: fit-content;
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
 h2, h3 {
@@ -15,6 +17,6 @@ h2, h3 {
     font-weight: 500;
 }
 
-p {
+main p {
     line-height: 1.6;
 }
