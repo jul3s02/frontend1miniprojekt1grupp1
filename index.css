@@ -6,13 +6,23 @@
 
 body main{
     color: blue;
+    
     font-family: system-ui,sans-serif;
     line-height: 1.6;
-    background-color: rgb(124, 170, 124); 
+    background-color:antiquewhite; 
 }
-img {
-    width: auto;
+main{
+    text-align: center;
 }
-footer{
-    text-align: left;
+article{
+    color: rgb(18, 96, 83);
+    text-align: center;
+    border-radius: 30px;
+}
+.css-img{
+    display: block;
+    margin: 20px auto;
+    width:50%;
+    border-image: 2px solid green;
+    justify-items: center;
 }
