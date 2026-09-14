@@ -14,7 +14,7 @@ body main{
     display: flex;
     align-items: center;
     gap: 40px;
-   border-radius: 40px;
+   border-radius: 20px;
     background-color: antiquewhite;
 }
 .hero-img{
@@ -37,12 +37,12 @@ footer{
 /*css för mobil*/
 @media (max-width:768px){
     .hero{
-        flex-direction: column;
+      flex-direction: column;
     }aquamarine
 }
 /*för desktop*/
 @media (max-width:1024px){
     .hero{
-        flex-direction: column;
+    flex-direction: column;
     }
 }
