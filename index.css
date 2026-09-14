@@ -1,10 +1,18 @@
 *,
 *::before,
 *::after{
-
+    box-sizing: border-box;
 }
-body{
+
+body main{
+    color: blue;
     font-family: system-ui,sans-serif;
     line-height: 1.6;
-    
+    background-color: rgb(124, 170, 124); 
+}
+img {
+    width: auto;
+}
+footer{
+    text-align: left;
 }
