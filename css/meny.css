@@ -1,8 +1,16 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .menuMain {
-    background-color: white;
-    margin: 1rem;
+    background-color: rgba(238, 182, 49, 0.25);
+    margin: 2rem;
     padding: 1rem;
-    border:  dashed black 2px;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 5px 12px 24px -3px rgba(0, 0, 0, 0.25);
 }
 
 .menuMain h3{
@@ -26,4 +34,18 @@
 
 .menuSection{
     margin: 1rem;
+}
+
+
+/* PC screen */
+
+@media (min-width: 768px){
+
+    .menuMain {
+        width: 70%;
+        margin: 2rem;
+    }
+
+
+
 }
