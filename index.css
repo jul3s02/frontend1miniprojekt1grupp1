@@ -11,18 +11,34 @@ body main{
     line-height: 1.6;
     background-color:antiquewhite; 
 }
-main{
-    text-align: center;
+.hero{
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
+.hero-img{
+    border-image: 2px solid green;
+    align-items:center ;
+}
+.hero-text{
+    text-align: right;
+    color: rgb(145, 33, 64);
+}
+
 article{
     color: rgb(18, 96, 83);
     text-align: center;
     border-radius: 30px;
 }
-.css-img{
-    display: block;
-    margin: 20px auto;
-    width:50%;
-    border-image: 2px solid green;
-    justify-items: center;
+/*css för mobil*/
+@media (max-width:768px){
+    .hero{
+        flex-direction: column;
+    }
+}
+/*för desktop*/
+@media (max-width:1024px){
+    .hero{
+        flex-direction: column;
+    }
 }
