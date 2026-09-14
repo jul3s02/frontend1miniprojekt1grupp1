@@ -11,9 +11,15 @@ body main{
     line-height: 1.6;
     background-color:antiquewhite; 
 }
+
 main{
     text-align: center;
 }
+.hero-content{
+    text-align: left;
+    text-shadow: 3px;
+}
+
 article{
     color: rgb(18, 96, 83);
     text-align: center;
