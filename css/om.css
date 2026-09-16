@@ -22,19 +22,21 @@ main {
 .border-wrapper {
     display: flex;
     gap: 30px;
-    margin: 30px;
-    flex-direction: column;
-    align-items:center;
+    margin: 2rem;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
-
+/* 
 @media (min-width:768px){
 
     .border-wrapper {
         flex-direction: row;
+        align-items: flex-start;
     }
 
 
-}
+} */
 
 main h2, 
 main h3 {
