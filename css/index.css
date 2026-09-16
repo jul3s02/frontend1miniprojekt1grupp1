@@ -12,7 +12,7 @@ body main{
 }
 /*hero section*/
 .hero{
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
     gap: 40px;
@@ -20,7 +20,9 @@ body main{
     background-color: antiquewhite;
 }
 .hero-images{
+    display: grid;
     align-items:center ;
+    justify-content: center;
 }
 .hero-images img{
     width:300px;
@@ -44,7 +46,7 @@ footer{
     color: rgb(7, 7, 7);
 }
 /*css för mobil*/
-@media (max-width:768px){
+@media (max-width:375px){
     .hero{
       flex-direction: column;
       gap: 20px;
@@ -53,6 +55,5 @@ footer{
 /*för desktop*/
 @media (min-width:769px){
     .hero{
-    flex-direction: row;
-    }
+        flex-direction: column;
 }
