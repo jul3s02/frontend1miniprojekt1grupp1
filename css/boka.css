@@ -48,17 +48,17 @@ main nav{
     justify-content: center;
     gap: 15px;
 }
-nav a{
+main nav a{
     color: #fff;
     text-decoration: none;
     font-weight: bold;
     padding: 8px 12px;
 }
-nav a:hover{
+main nav a:hover{
     background-color: #a87545;
     border-radius: 5px;
 }
-nav a focus{
+main nav a focus{
     outline: 3px solid #fff;
     outline-offset: 2px;
 }
