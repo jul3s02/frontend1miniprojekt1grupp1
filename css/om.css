@@ -23,6 +23,16 @@ main {
     display: flex;
     gap: 30px;
     margin: 30px;
+    flex-direction: column;
+}
+
+@media (min-width:768px){
+
+    .border-wrapper {
+        flex-direction: row;
+    }
+
+
 }
 
 main h2, 

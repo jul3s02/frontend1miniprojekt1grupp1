@@ -18,6 +18,7 @@ body main{
     gap: 40px;
     border-radius: 20px;
     background-color: antiquewhite;
+    margin: 1rem;
 }
 .hero-images{
     align-items:center ;
@@ -55,4 +56,25 @@ footer{
     .hero{
     flex-direction: row;
     }
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+}
+
+
+.hittaHit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hittaHit *{
+    width: fit-content;
+
+}
+
+.hittaHit  p{
+    margin: 0;
 }
